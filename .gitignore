@@ -70,4 +70,5 @@ Temporary Items
 
 Rplots*
 *.csv
-
+*.log
+*.meta
