@@ -7,12 +7,10 @@ library(readr)
 library(tibble)
 library(purrr)
 library(dtw)
-library(tidyr)
-library(dplyr)
 library(stringr)
 
 args <- commandArgs(trailingOnly = T)
-default_args <- "./data/acc/0001-acc.csv"
+default_args <- "./data/acc/0072-acc.csv"
 args <- ifelse(length(args) == 0, default_args, args)
 
 area_vectors <- 1:6 %>% 
